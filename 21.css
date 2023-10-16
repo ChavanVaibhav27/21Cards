@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(blue,black);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#cont{
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 45%;
+    margin: auto;
+    margin-top: 10%;
+}
+header{
+    display: flex;
+    gap: 1rem;
+}
+h1{
+    color:red;
+    font-size: 6rem;
+    margin: 0;
+    display: flex;
+
+}
+header h1 span{
+    color: white;
+}
+main h2{
+    text-align: center;
+}
+main h4{
+    text-align: center;
+}
+main #btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+main #btn button{
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: greenyellow;
+    font-weight: 700;
+    color: black;
+    border: none;
+}
+#btn #new{
+    background-color: orangered;
+    color: black;
+    font-weight: 700;
+}
+main p{
+    text-align: center;
+    font-size: 1.6rem;
+
+}
+#rbut{
+    text-align: center;
+    margin-top: 1rem;
+}
+#rbut button{
+    width: 20%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(164, 164, 245);
+    color: black;
+    font-weight: 600;
+}
